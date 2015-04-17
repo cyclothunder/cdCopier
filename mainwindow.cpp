@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBox_device->setModel(deviceList_deviceModel);
 
     QTableView *tableStatus = new QTableView;
-    tableStatus->setModel(createModel(tableStatus));
+    // tableStatus->setModel(createModel(tableStatus));
 
 
     ui->textBrowser_status->append(QString::number(lUtils->getROList_devices().length()));

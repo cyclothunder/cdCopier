@@ -17,15 +17,15 @@ SOURCES += main.cpp\
     preferences.cpp \
     start_proccess.cpp \
     utils.cpp \
-    rlRsyncProcessWorker.cpp \
-    frame_stat.cpp
+    frame_stat.cpp \
+    ProcessWorker.cpp
 
 HEADERS  += mainwindow.h \
     preferences.h \
     start_proccess.h \
     utils.h \
-    rlRsyncProcessWorker.h \
-    frame_stat.h
+    frame_stat.h \
+    ProcessWorker.h
 
 FORMS    += mainwindow.ui \
     preferences.ui \
